@@ -1,0 +1,17 @@
+module vortex { module flinkdemo {
+
+    struct TaxiRide {
+        long long        rideId;
+        boolean     isStart;
+        long long        startTime;
+        long long        endTime;
+        float       startLon;
+        float       endLon;
+        float       startLat;
+        float       endLat;
+        short       passengerCnt;
+    };
+    #pragma keylist TaxiRide rideId
+
+
+}; };
